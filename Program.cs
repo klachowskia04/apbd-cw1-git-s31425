@@ -19,6 +19,9 @@ int[] numbers = {a,b};
 double avg = CalculateAverage(numbers);
 Console.WriteLine("Średnia: " + avg);
 
+int max = CalculateMax(a, b);
+Console.WriteLine("Max: " + max);
+
 static int Multiply(int a, int b)
 {
     return a * b;
@@ -27,4 +30,9 @@ static int Multiply(int a, int b)
 static double CalculateAverage(int[] values)
 {
     return values.Average();
+}
+
+static int CalculateAverage(int a, int b)
+{
+    return Math.Max(a, b);
 }
