@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Main updated v2");
+Console.WriteLine("Main before rebase");
 Console.Write("Podaj pierwszą liczbę: ");
 int a = int.Parse(Console.ReadLine());
 
