@@ -22,6 +22,9 @@ Console.WriteLine("Średnia: " + avg);
 int max = CalculateMax(a, b);
 Console.WriteLine("Max calculated: " + max);
 
+int min = CalculateMin(a, b);
+Console.WriteLine("Min: " + min);
+
 static int Multiply(int a, int b)
 {
     return a * b;
@@ -35,4 +38,9 @@ static double CalculateAverage(int[] values)
 static int CalculateAverage(int a, int b)
 {
     return Math.Max(a, b);
+}
+
+static int CalculateMin(int a, int b)
+{
+    return Math.Min(a, b);
 }
