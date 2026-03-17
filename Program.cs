@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello from MAIN branch!");
+Console.WriteLine("Main branch new");
 Console.Write("Podaj pierwszą liczbę: ");
 int a = int.Parse(Console.ReadLine());
 
@@ -20,7 +20,7 @@ double avg = CalculateAverage(numbers);
 Console.WriteLine("Średnia: " + avg);
 
 int max = CalculateMax(a, b);
-Console.WriteLine("Max: " + max);
+Console.WriteLine("Max value: " + max);
 
 static int Multiply(int a, int b)
 {
