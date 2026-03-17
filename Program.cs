@@ -6,6 +6,12 @@ int a = int.Parse(Console.ReadLine());
 Console.Write("Podaj druga liczbe: ");
 int b = int.Parse(Console.ReadLine());
 
+if (a < 0 || b < 0)
+{
+    Console.WriteLine("Liczby muszą być dodatnie!");
+    return;
+}
+
 int result = Multiply(a,b);
 Console.WriteLine("Wynik: " + result);
 
