@@ -1,7 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, Git!");
-int result = Multiply(2, 3);
-Console.WriteLine(result);
+Console.Write("Podaj pierwszą liczbę: ");
+int a = int.Parse(Console.ReadLine());
+
+Console.Write("Podaj druga liczbe: ");
+int b = int.Parse(Console.ReadLine());
+
+int result = Multiply(a,b);
+Console.WriteLine("Wynik: " + result);
 
 static int Multiply(int a, int b)
 {
