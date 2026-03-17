@@ -13,7 +13,7 @@ if (a < 0 || b < 0)
 }
 
 int result = Multiply(a,b);
-Console.WriteLine("Wynik: " + result);
+Console.WriteLine("Wynik z feature branch: " + result);
 
 int[] numbers = {a,b};
 double avg = CalculateAverage(numbers);
