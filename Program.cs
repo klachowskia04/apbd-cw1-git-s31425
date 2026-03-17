@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Git!");
+Console.WriteLine("Hello from MAIN branch!");
 Console.Write("Podaj pierwszą liczbę: ");
 int a = int.Parse(Console.ReadLine());
 
