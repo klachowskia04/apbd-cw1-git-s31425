@@ -20,7 +20,7 @@ double avg = CalculateAverage(numbers);
 Console.WriteLine("Średnia: " + avg);
 
 int max = CalculateMax(a, b);
-Console.WriteLine("Max value: " + max);
+Console.WriteLine("Max calculated: " + max);
 
 static int Multiply(int a, int b)
 {
