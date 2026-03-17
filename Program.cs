@@ -23,7 +23,7 @@ int max = CalculateMax(a, b);
 Console.WriteLine("Max calculated: " + max);
 
 int min = CalculateMin(a, b);
-Console.WriteLine("Min: " + min);
+Console.WriteLine("Min Value: " + min);
 
 static int Multiply(int a, int b)
 {
