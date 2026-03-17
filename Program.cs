@@ -15,7 +15,16 @@ if (a < 0 || b < 0)
 int result = Multiply(a,b);
 Console.WriteLine("Wynik: " + result);
 
+int[] numbers = {a,b};
+double avg = CalculateAverage(numbers);
+Console.WriteLine("Średnia: " + avg);
+
 static int Multiply(int a, int b)
 {
     return a * b;
+}
+
+static double CalculateAverage(int[] values)
+{
+    return values.Average();
 }
