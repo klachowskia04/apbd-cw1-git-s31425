@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Main branch new");
+Console.WriteLine("Main updated v2");
 Console.Write("Podaj pierwszą liczbę: ");
 int a = int.Parse(Console.ReadLine());
 
